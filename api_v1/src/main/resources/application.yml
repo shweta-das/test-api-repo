@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: fa69bc64378f50f
+            client-authentication-method: none
+            authorization-grant-type: authorization_code
+            redirect-uri: https://getpostman/oauth2/callback
